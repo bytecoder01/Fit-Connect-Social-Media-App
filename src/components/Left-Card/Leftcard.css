@@ -1,0 +1,249 @@
+.leftcard{
+
+ margin-top:1rem;
+ margin-left: 0.5rem;
+
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.profile-images{
+  position: relative;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 90px;
+
+ 
+
+}
+.profile-images>img:nth-of-type(1){
+ 
+ margin-top: -100px;
+ border-radius:14px 14px 0px 0px;
+
+ width: 290px;
+ height: 107px;
+ 
+ padding-top: 10px;
+ 
+
+}
+.profile-images>img:nth-of-type(2){
+
+width: 6rem;
+height: 6rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -2rem;
+  z-index: 2;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.card {
+  box-shadow: 0px 10px 30px #E00712;
+  outline: 1px solid #E00712;
+  position: relative;
+  width: 300px;
+  height: 370px;
+  border-radius: 14px;
+  z-index: 1111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+  
+ 
+}
+
+.profile-name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 10px;
+  
+}
+.profile-name>span:nth-last-of-type(2){
+  font-weight: bold;
+ 
+}
+
+.follow-status{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.follow-status >hr{
+  width: 85%;
+border: 1px solid ;
+}
+.follow-status >div{
+display: flex;
+gap: 1rem;
+width: 80%;
+justify-content: space-around;
+align-items: center;
+}
+.followers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.followers > span:nth-last-of-type(1){
+  
+  font-size: 13px;
+}
+
+.followers > span:nth-last-of-type(2){
+  font-weight: bold;
+  color: #E00712;
+
+}
+
+.bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 290px;
+  height: 360px;
+  z-index: 2;
+  background:#000000;
+  backdrop-filter: blur(24px);
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.line{
+
+  position: absolute;
+  
+  
+  width: 2px; /* Adjust thickness as needed */
+  height: 18%; /* Ensure it covers the full height of the parent */
+  background-color: #E00712; /* Color of the line */
+
+}
+
+/* .blob {
+  position: absolute;
+  z-index: 1000000000;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 320px;
+  border-radius: 50%;
+  background-color: #E00712;
+  opacity: 1;
+  filter: blur(12px);
+  animation: blob-bounce 5s infinite ease;
+  
+} */
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+}
+.content{
+  z-index: 100;
+}
+
+
+.myprofile> span{
+font-weight: bold;
+color: #E00712;
+align-items: center;
+margin-bottom: 1rem;
+justify-content: center;
+cursor:pointer;
+display: flex;
+margin-top: 10px;
+ 
+}
+
+.infocard{
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  
+ gap: 10px;
+ margin-left: 20px;
+  justify-content: flex-start;
+
+}
+
+.infoHead{
+  display: flex;
+  color: #E00712;
+  justify-content: space-between;
+  gap:60px;
+  align-items: center;
+  font-size: 35px;
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
+.infoHead>div:hover{
+  cursor: pointer;
+
+  
+}
+.all-info{
+  margin-top: -10px;
+  
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+.info-profile-card{
+
+  font-size: 20px;
+  
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.info-btn{
+  padding: 12px 12px 12px 12px;
+  font-size: 15px;
+ 
+}
+.info-btn-container{
+  
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-bottom: -70px;
+  margin-right: -16px;
+ 
+}
+.pencil{
+  width: 20px;
+  height:auto ;
+  
+}

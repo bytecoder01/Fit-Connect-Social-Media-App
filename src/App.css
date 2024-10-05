@@ -1,0 +1,53 @@
+
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Apply background color to the main app container */
+.App {
+  background-color: #181818;
+ 
+  
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}  
+
+
+.mobile-message {
+  
+  background-color:#E00712;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.main-mobile {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  height: 100vh;
+  color: white;
+}
+
+.mobile-title {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.main-img {
+  max-width: 80%;
+  height: auto;
+}

@@ -1,0 +1,101 @@
+
+.trends{
+  box-shadow: 0px 10px 30px #E00712;
+    position: relative;
+    width: 300px;
+    height: 370px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   color: white;
+   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .bg-t {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 290px;
+    height: 360px;
+    z-index: 2;
+  background-color:#000000;
+
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+  
+  }
+  
+
+  .blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: #E00712;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+
+.trend{
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+   
+
+}
+.trend>span:nth-of-type(1){
+
+font-weight: bold;
+}
+
+
+.trend>span:nth-of-type(2){
+    font-size: 15px;
+}
+
+.t-content{
+    z-index: 100;
+    margin-bottom: 20px;
+    
+}
+
+.trends h3 {
+color:  #FA1228;
+text-transform: uppercase;
+
+font-size:20px ;
+
+}
+

@@ -1,0 +1,7 @@
+.main{
+    display: grid;
+    position: relative;
+    grid-template-columns: 20rem auto 20rem ;
+    gap: 2rem;
+    
+}

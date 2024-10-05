@@ -1,0 +1,56 @@
+.input-container {
+    width: 312px;
+    position: relative;
+    
+   
+  }
+ 
+  
+  .icon {
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+  }
+  
+  .input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    transition: .2s linear;
+    border: 2.5px solid #E00712;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   background-color: white;
+  }
+  
+  .input {
+    outline: none;
+    border: 0.5px solid #E00712;
+    box-shadow: -5px -5px 0px #E00712;
+  }
+  .input:focus{
+    border: 0.5px solid orange;
+  }
+  .input-container:hover > .icon {
+    animation: anim 1s linear infinite;
+  }
+  
+  @keyframes anim {
+    0%,
+    100% {
+      transform: translateY(calc(-50% - 5px)) scale(1.5);
+    }
+  
+    50% {
+      transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+  }
+
+  .left{
+   padding: 1rem;
+   margin-top:10px;
+
+   
+  }

@@ -1,0 +1,92 @@
+/* General Modal Styles */
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Reduced gap */
+    padding: 10px; /* Reduced padding */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: black;
+    border-radius: 8px; /* Slightly smaller border radius */
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.update-choose-area{
+    color: white;
+}
+
+
+.infoForm h3 {
+    margin-bottom: 12px;
+    font-size: 1.5em; /* Reduced font size */
+    font-weight: 600;
+    color: #E00712;
+    border-bottom: 2px solid #E00712;
+    padding-bottom: 2px; /* Reduced padding */
+}
+
+.infoForm input[type="text"] {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    margin: 6px 0; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Slightly smaller border radius */
+    font-size: 0.95em; /* Slightly smaller font size */
+    background-color: #fff;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.infoForm input[type="text"]:focus {
+    border-color: #E00712;
+    box-shadow: 0px 0px 6px rgba(224, 7, 18, 0.3); /* Adjusted shadow color */
+    outline: none;
+}
+
+.infoForm input[type="file"] {
+    width: 97%;
+    padding: 10px; /* Reduced padding */
+    margin: 10px 0; /* Reduced margin */
+    font-size: 0.95em; /* Slightly smaller font size */
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.infoForm .infoInput {
+    width: calc(50% - 8px); /* Adjusted width */
+    margin: 0;
+}
+
+.infoForm div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; /* Reduced gap */
+    
+}
+
+.infoForm .button {
+    padding: 10px 25px; /* Reduced padding */
+    font-size: 1em; /* Slightly smaller font size */
+    color: white;
+    background-color: #E00712;
+    border: none;
+    border-radius: 6px; /* Slightly smaller border radius */
+    cursor: pointer;
+    box-shadow: 0px 3px 8px rgba(224, 7, 18, 0.2); /* Adjusted shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.infoForm .button:hover {
+    background-color: #C00610; /* Slightly darker shade on hover */
+    box-shadow: 0px 5px 12px rgba(224, 7, 18, 0.3); /* Enhanced shadow */
+}
+.update-choose-area{
+    flex-direction: column;
+    margin-top: 8px;
+    
+}
+.infoForm .button:active {
+    background-color: #A0050D; /* Darker shade on click */
+    box-shadow: 0px 2px 6px rgba(224, 7, 18, 0.5); /* Darker shadow on click */
+}

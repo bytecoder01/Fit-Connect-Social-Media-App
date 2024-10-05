@@ -1,0 +1,39 @@
+.postfiles{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.post-image{
+    width: 100%;
+    max-height: 25rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.reactions{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+}
+
+
+.heart{
+    width: 40px;
+    height: 40px;
+}
+.details{
+    color: white;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.likes-text{
+    color: white;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  
+}
+
